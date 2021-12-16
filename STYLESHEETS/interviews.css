@@ -319,7 +319,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 /*start of footer*/
 
 .footer {
-  position: sticky;
+  position: fixed;
   bottom: 0;
   display: flex;
   margin: 20px;
@@ -328,7 +328,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   border-top: 1px solid black;
   background-color: white;
   height: 45px;
-  padding-bottom: env(safe-area-inset-bottom);
+  width: calc(100% - 40px); 
 }
 
 .footer-item {
@@ -348,6 +348,12 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: black;
   color: white
 }
+ 
+@media only screen and (max-width: 425px) {
+  .footer a{ 
+      font-size: 4.5vw; 
+  }
+}
 
 /*mobile screen padding*/
 
@@ -359,7 +365,29 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 @media only screen and (max-width: 899px) {
+  .featured-media { 
+    max-height: none;
+    margin-left: 10px;
+    width: calc(100% - 20px); 
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .new-in { 
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
   .card-container { 
+   margin-left: 10px;
+   margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .view-entire-collection { 
    margin-left: 10px;
    margin-right: 10px;
   }
@@ -369,5 +397,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   .footer { 
    margin-left: 10px;
    margin-right: 10px;
+   width: calc(100% - 20px); 
   }
 }

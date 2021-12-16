@@ -542,12 +542,11 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: white;
   height: 45px;
   width: calc(100% - 40px); 
+  padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
 }
 
 .footer-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  line-height: 45px;
   width: 25%;
   font-family: Mondwest Regular;
   font-size: 20px;

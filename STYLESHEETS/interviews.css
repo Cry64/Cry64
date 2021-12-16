@@ -329,7 +329,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: white;
   height: 45px;
   width: calc(100% - 40px); 
-  padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
 }
 
 .footer-item {
@@ -340,6 +339,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   color: black;
   text-align: center;
   text-decoration: none;
+  padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
 }
 
 .footer-item:hover {

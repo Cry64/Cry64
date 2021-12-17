@@ -504,6 +504,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
    font-size: 10px;
   }
 }
+
 /*start of view entire collection*/
 
 .view-entire-collection {
@@ -544,7 +545,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: white;
   height: 45px;
   width: calc(100% - 40px); 
-  padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
 }
 
 .footer-item {
@@ -612,5 +612,11 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
    margin-left: 10px;
    margin-right: 10px;
    width: calc(100% - 20px); 
+  }
+}
+
+@media screen and (max-width: 767px) {
+  _::-webkit-full-page-media, _:future, :root .safari_only {
+      padding-bottom: 65px; //resize 
   }
 }

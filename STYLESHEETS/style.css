@@ -610,12 +610,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   }
 }
 
-@media screen and (max-width: 767px) {
-  _::-webkit-full-page-media, _:future, :root .safari_only {
-      padding-bottom: 65px; //resize 
-  }
-}
-
 .footer-item:hover {
   transition: 0.2s;
   background-color: black;

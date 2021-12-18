@@ -27,7 +27,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   top: 0;
   width: 100%;
   height: 15px;
-  background-color: white;
+  background-color: blue;
   color: white;
 }
 
@@ -534,7 +534,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 .footer {
   position: sticky;
-  bottom: 0;
+  bottom: env(safe-area-inset-bottom);;
   display: flex;
   margin: 20px;
   margin-top: -1px;
@@ -542,7 +542,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: white;
   height: 45px;
   width: calc(100% - 40px); 
-  padding-bottom: env(safe-area-inset-bottom);
+  margin-bottom: env(safe-area-inset-bottom);
 }
 
 .footer-item {
@@ -553,7 +553,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   color: black;
   text-align: center;
   text-decoration: none;
-  padding-bottom: env(safe-area-inset-bottom);
 }
 
  
@@ -606,7 +605,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
    margin-left: 10px;
    margin-right: 10px;
    width: calc(100% - 20px); 
-   padding-bottom: env(safe-area-inset-bottom);
   }
 }
 

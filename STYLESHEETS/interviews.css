@@ -318,20 +318,30 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 /*start of footer*/
 
+.footer-filler {
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+  height: 100%;
+  margin-bottom: env(safe-area-inset-bottom);
+}
+
 .footer {
-  position: fixed;
+  position: sticky;
   bottom: 0;
   display: flex;
   margin: 20px;
-  margin-bottom: 0;
   margin-top: -1px;
   border-top: 1px solid black;
   background-color: white;
   height: 45px;
   width: calc(100% - 40px); 
+  margin-bottom: env(safe-area-inset-bottom);
 }
 
 .footer-item {
+  height: 100%;
+   background-color: white;
   line-height: 45px;
   width: 25%;
   font-family: Mondwest Regular;
@@ -339,14 +349,8 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   color: black;
   text-align: center;
   text-decoration: none;
-  padding-bottom: calc(.5rem + env(safe-area-inset-bottom))
 }
 
-.footer-item:hover {
-  transition: 0.2s;
-  background-color: black;
-  color: white
-}
  
 @media only screen and (max-width: 425px) {
   .footer a{ 

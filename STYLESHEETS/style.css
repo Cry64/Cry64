@@ -27,7 +27,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   top: 0;
   width: 100%;
   height: 15px;
-  background-color: navajowhite;
+  background-color: white;
   color: white;
 }
 
@@ -211,7 +211,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-interview {
-  background-image: url(../IMAGES/anime.png);
+  background-image: url(../IMAGES/anime.pn);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -535,7 +535,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 .footer-filler {
   position: sticky;
   bottom: 0;
-  background-color: palegoldenrod;
+  background-color: white;
   height: 100%;
   margin-bottom: env(safe-area-inset-bottom);
 }

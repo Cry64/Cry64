@@ -532,6 +532,13 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 /*start of footer*/
 
+.footer-filler {
+  position: sticky;
+  bottom: 0;
+  background-color: palegoldenrod;
+  height: 100%;
+}
+
 .footer {
   position: sticky;
   bottom: env(safe-area-inset-bottom);;
@@ -547,7 +554,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 .footer-item {
   height: 100%;
-  background-color: white;
+   background-color: white;
   line-height: 45px;
   width: 25%;
   font-family: Mondwest Regular;

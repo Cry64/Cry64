@@ -217,7 +217,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   overflow: hidden;
   position: relative;
   border: 1px solid black;
-  width: 50.05%;
+  width: 50.1%;
 }
 
 .featured-interview-card {
@@ -391,6 +391,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   text-decoration: none;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .album {
@@ -409,7 +410,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   position: relative;
   top: -5px;
   border-left: 0;
-  
 }
 
 .album-title {
@@ -509,7 +509,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
  border: 1px solid black;
  display: flex;
  margin: 20px;
- margin-bottom: 0;
+ margin-bottom: 20px;
  height: 40px;
  text-decoration: none;
 }

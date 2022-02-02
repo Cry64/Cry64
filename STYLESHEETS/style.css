@@ -110,7 +110,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   white-space: nowrap;
   padding-left: 100%;
   z-index: -1;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 35px;
   background-color: white;
 }
@@ -211,7 +211,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-interview {
-  background-image: url(../IMAGES/anime.pn);
+  background-image: url(../IMAGES/anime.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -365,20 +365,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   }
 }
 
-/*start of new in*/
-
-.new-in {
-  margin: 20px;
-  margin-bottom: 0px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  font-size: 25px;
-  font-family: Mondwest Regular;
-  border: 1px solid black;
-  border-bottom: 0;
-}
-
 /*start of releases grid*/
 
 .card-container {
@@ -389,9 +375,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25%, 4fr));
   text-decoration: none;
-  margin-right: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .album {
@@ -418,7 +402,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   font-family: Mondwest Regular;
   color: black;
   padding: 10px;
-  padding-bottom: 0px
+  padding-bottom: 5px
 }
 
 .album-artist {
@@ -431,6 +415,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 .genre-tags {
   display: flex;
   padding: 10px;
+  padding-top: 0;
   padding-bottom: 0px;
   flex-wrap: wrap; 
   margin-top: 5px;
@@ -497,9 +482,9 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   }
 }
 
-@media only screen and (max-width: 450px) {
-  .genre-tags p{ 
-   font-size: 10px;
+@media only screen and (max-width: 767px) {
+  .genre-tags { 
+   display: none;
   }
 }
 

@@ -110,7 +110,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   white-space: nowrap;
   padding-left: 100%;
   z-index: -1;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 35px;
   background-color: white;
 }

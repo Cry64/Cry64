@@ -42,7 +42,8 @@
     grid-template-columns: 50.05% repeat(4, 12.5%);
     grid-template-rows: 57%;
     border: 1px solid black;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     height: 85px;
   }
   
@@ -203,6 +204,7 @@
   .about-page {
     border: 1px solid black;
     margin: 20px;
+    margin-top: 10px;
     height: 48.65vw;
   }
   
@@ -233,7 +235,7 @@
     font-family: Mondwest Regular;
     font-size:20px;
     padding: 15px;
-    padding-top: 10px;
+    padding-top: 20px;
   }
   
   .about-page ul {

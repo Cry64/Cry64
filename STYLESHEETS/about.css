@@ -19,9 +19,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   padding: 0;
 }
 
-.img {
-  
-}
 /*start of white bar*/
 
 .white-bar {
@@ -45,7 +42,8 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   grid-template-columns: 50.05% repeat(4, 12.5%);
   grid-template-rows: 57%;
   border: 1px solid black;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   height: 85px;
 }
 
@@ -57,6 +55,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 .lower-header-item {
   border-right: 1px solid black;
+  
 }
 
 .header-item p,.lower-header-item p {
@@ -81,6 +80,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   border-right: 0;
   text-decoration: none;
   z-index: 50;
+  
 }
 
 .join-here p {
@@ -113,9 +113,10 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   white-space: nowrap;
   padding-left: 100%;
   z-index: -1;
-  font-size: 25px;
+  font-size: 22px;
   line-height: 35px;
   background-color: white;
+  
 }
   
 .logo, .home, .releases, .interviews, .about{
@@ -206,7 +207,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 .about-page {
   border: 1px solid black;
   margin: 20px;
-  height: 48.65vw;
+  margin-top: 0;
 }
 
 .about-container {
@@ -224,6 +225,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 
 .about-page p {
   margin-bottom: 8px;
+  margin-top: 10px;
   font-family: Mondwest Regular;
   font-size:20px;
   padding: 15px;
@@ -259,6 +261,12 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
       height: 80%;
       margin-left: 10px;
       margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 899px) {
+  .about-page p { 
+      margin: 0;
   }
 }
 

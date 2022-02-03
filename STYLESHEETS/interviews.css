@@ -150,7 +150,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .bio p {
-  animation: floatText 3300s infinite linear;
+  animation: floatText 4000s infinite linear;
 }
 
   @keyframes floatText {
@@ -325,32 +325,32 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   background-color: white;
   height: 100%;
   margin-bottom: env(safe-area-inset-bottom);
+  
 }
 
 .footer {
   position: sticky;
   bottom: 0;
-  display: flex;
+  display: none;
   margin: 20px;
   margin-top: -1px;
   border-top: 1px solid black;
   background-color: white;
   height: 45px;
-  width: calc(100% - 40px); 
+  width: 100%; 
   margin-bottom: env(safe-area-inset-bottom);
 }
 
 .footer-item {
-  height: 100%;
-   background-color: white;
+  width: 100%;
   line-height: 45px;
-  width: 25%;
   font-family: Mondwest Regular;
   font-size: 20px;
   color: black;
-  text-align: center;
   text-decoration: none;
+  text-align: center;
 }
+
 
  
 @media only screen and (max-width: 425px) {
@@ -401,6 +401,13 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   .footer { 
    margin-left: 10px;
    margin-right: 10px;
-   width: calc(100% - 20px); 
+   width: calc(100% - 20px);
+   display: flex;
   }
+}
+
+.footer-item:hover {
+  transition: 0.2s;
+  background-color: black;
+  color: white
 }

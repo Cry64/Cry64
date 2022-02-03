@@ -150,7 +150,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .bio p {
-  animation: floatText 3300s infinite linear;
+  animation: floatText 4000s infinite linear;
 }
 
   @keyframes floatText {

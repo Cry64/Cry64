@@ -211,7 +211,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-interview {
-  background-image: url(../IMAGES/anime.png);
+  background-image: url(../IMAGES/FRIN.jpg);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -250,7 +250,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-album {
-  background-image: url(../IMAGES/crossing.pn);
+  background-image: url(../IMAGES/bfd.png);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -258,7 +258,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   border: 1px solid black;
   border-left: 0;
   width: 50%;
-  height: 100%;
+
 }
 
 .featured-album-cover {
@@ -365,6 +365,20 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   }
 }
 
+.new-music {
+  border: 1px solid black;
+  background-color: white;
+  height: 45px;
+  margin: 20px;
+}
+
+.new-music p {
+  text-align: center;
+  line-height: 45px;
+  font-family: Mondwest Regular;
+  font-size: 20px;
+}
+
 /*start of releases grid*/
 
 .card-container {
@@ -388,6 +402,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 .album-cover {
   width: 100%;
   border-bottom: 1px solid black;
+
 }
 
 .album-card {
@@ -575,7 +590,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 @media only screen and (max-width: 899px) {
-  .new-in { 
+  .new-music { 
    margin-left: 10px;
    margin-right: 10px;
   }

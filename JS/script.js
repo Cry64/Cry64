@@ -17,3 +17,80 @@
       </div>
     </div>
   </body>
+
+        
+  <div class="card-container">
+  <a href="#" class="album">
+    <img class="album-cover" style="background-image:url(yourimage.jpg)"src="/IMAGES/dummy.png">
+    <div class="album-card">
+      <div class="album-title">
+        <p>Coming Soon</p>
+      </div>
+      <div class="album-artist">
+        <p></p>
+      </div>
+      <div class="genre-tags" id="genre-tagz">
+        <p>???</p>
+        <p class="tag second-tag">???</p>
+        <p class="tag third-tag">???</p>
+        <p class="fourth-tag" id="fourth-tag">???</p>
+      </div>
+    </div>
+  </a>
+  <a href="#" class="album">
+    <img class="album-cover" style="background-image:url(yourimage.jpg)"src="/IMAGES/dummy.png">
+    <div class="album-card">
+      <div class="album-title">
+        <p>Coming Soon</p>
+      </div>
+      <div class="album-artist">
+        <p></p>
+      </div>
+      <div class="genre-tags" id="genre-tagz">
+        <p>???</p>
+        <p class="tag second-tag">???</p>
+        <p class="tag third-tag">???</p>
+        <p class="fourth-tag" id="fourth-tag">???</p>
+      </div>
+    </div>
+  </a>
+  <a href="#" class="album">
+    <img class="album-cover" style="background-image:url(yourimage.jpg)"src="/IMAGES/dummy.png">
+    <div class="album-card">
+      <div class="album-title">
+        <p>Coming Soon</p>
+      </div>
+      <div class="album-artist">
+        <p></p>
+      </div>
+      <div class="genre-tags" id="genre-tagz">
+        <p>???</p>
+        <p class="tag second-tag">???</p>
+        <p class="tag third-tag">???</p>
+        <p class="fourth-tag" id="fourth-tag">???</p>
+      </div>
+    </div>
+  </a>
+  <a href="#" class="album">
+    <img class="album-cover" style="background-image:url(yourimage.jpg)"src="/IMAGES/dummy.png">
+    <div class="album-card">
+      <div class="album-title">
+        <p>Coming Soon</p>
+      </div>
+      <div class="album-artist">
+        <p></p>
+      </div>
+      <div class="genre-tags" id="genre-tagz">
+        <p>???</p>
+        <p class="tag second-tag">???</p>
+        <p class="tag third-tag">???</p>
+        <p class="fourth-tag" id="fourth-tag">???</p>
+      </div>
+    </div>
+  </a>
+</div>
+<!--start of view all releases-->
+
+<a href="../releases.html" class="view-entire-collection">
+  <p>View All Releases</p>
+</a>

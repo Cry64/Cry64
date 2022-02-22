@@ -308,6 +308,14 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   overflow: hidden;
 }
 
+.interview-4 {
+  background-image: url(../IMAGES/paranoid.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
 
 .a2 {
   background-image: url(../IMAGES/anime.pn);

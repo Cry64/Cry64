@@ -104,15 +104,21 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   border-right: 0;
 }
 
+.bio {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: white;
+}
+
 .bio p{
   position: relative;
   display: inline-block;
   white-space: nowrap;
   padding-left: 100%;
-  z-index: -1;
-  font-size: 22px;
-  line-height: 35px;
-  background-color: white;
+  font-size: 21px;
 }
   
 .logo, .home, .releases, .interviews, .about{
@@ -211,7 +217,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-interview {
-  background-image: url(../IMAGES/paranoid.jpg);
+  background-image: url(../IMAGES/weather.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -250,7 +256,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-album {
-  background-image: url(../IMAGES/yuri2356.png);
+  background-image: url(../IMAGES/FRIN.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -564,7 +570,6 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   text-align: center;
 }
 
-
  
 @media only screen and (max-width: 425px) {
   .footer a{ 
@@ -623,4 +628,14 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
   transition: 0.2s;
   background-color: black;
   color: white
+}
+
+.discord-container {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 899px) {
+  .join-here { 
+      display: none; 
+  }
 }

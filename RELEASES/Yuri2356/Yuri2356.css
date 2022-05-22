@@ -108,17 +108,23 @@
     border-right: 0;
   }
 
+  .bio {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: white;
+  }
+  
   .bio p{
     position: relative;
     display: inline-block;
     white-space: nowrap;
     padding-left: 100%;
-    z-index: -1;
-    font-size: 22px;
-    line-height: 35px;
-    background-color: white;
-    
+    font-size: 21px;
   }
+
     
   .logo, .home, .releases, .interviews, .about{
     background-color: white;
@@ -200,6 +206,12 @@
     @media only screen and (max-width: 425px) {
       .header-item p{ 
           font-size: 4.5vw; 
+      }
+    }
+    
+    @media only screen and (max-width: 899px) {
+      .join-here { 
+          display: none; 
       }
     }
     

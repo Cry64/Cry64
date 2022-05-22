@@ -108,17 +108,23 @@
     border-right: 0;
   }
 
+  .bio {
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+  }
+  
   .bio p{
     position: relative;
     display: inline-block;
     white-space: nowrap;
     padding-left: 100%;
     z-index: -1;
-    font-size: 22px;
-    line-height: 35px;
+    font-size: 21px;
     background-color: white;
-    
   }
+  
     
   .logo, .home, .releases, .interviews, .about{
     background-color: white;
@@ -326,6 +332,12 @@
       .header{ 
           margin: 10px;
           margin-bottom: 20px;
+      }
+    }
+
+    @media only screen and (max-width: 899px) {
+      .join-here { 
+          display: none; 
       }
     }
 

@@ -30,13 +30,11 @@
     .body {
       width: 100%;
       display: inline;
-      overflow: hidden;
     }
 
     .page {
       height: -webkit-fill-available;
       width: 100%;
-      overflow: hidden;
     }
 
 /*start of header*/
@@ -225,6 +223,7 @@
     display: flex;
     margin: 20px;
     background-color: #36393e;
+    height: 82vh;
     }
 
   @media only screen and (max-width: 899px) {

@@ -44,6 +44,8 @@
   border: 1px solid black;
   margin: 20px;
   height: 85px;
+  margin-bottom: 0;
+  border-bottom: 0;
 }
 
 .header-item {
@@ -258,6 +260,7 @@
    color: white;
   }
   
+
   @media only screen and (max-width: 899px) {
     .about-page { 
         height: 80%;
@@ -297,7 +300,8 @@
   @media only screen and (max-width: 899px) {
     .header{ 
         margin: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 0;
+        border-bottom: 1px solid black;
     }
   }
   

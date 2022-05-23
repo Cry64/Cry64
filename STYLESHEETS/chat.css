@@ -24,18 +24,21 @@
         height: 100%;
         width: 100%;
         display: inline;
+        overflow: hidden;
     }
 
     .body {
       height: 100%;
       width: 100%;
       display: inline;
+      overflow: hidden;
     }
 
     .page {
       height: 100vh;
       width: 100%;
       overflow: hidden;
+     
     }
 
  /*start of white bar*/

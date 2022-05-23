@@ -224,8 +224,7 @@
   .discord {
     display: flex;
     margin: 20px;
-    background-color: blue;
-    height: 70%;
+    background-color: #36393e;
     }
 
   @media only screen and (max-width: 899px) {
@@ -233,5 +232,6 @@
         margin: 10px;
         margin-top: 15px;
         margin-bottom: env(safe-area-inset-bottom);
+        height: 70vh;
     }
   }

@@ -30,11 +30,13 @@
     .body {
       width: 100%;
       display: inline;
+      overflow: hidden;
     }
 
     .page {
       height: -webkit-fill-available;
       width: 100%;
+      overflow: hidden;
     }
 
 /*start of header*/

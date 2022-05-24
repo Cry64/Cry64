@@ -234,8 +234,8 @@
 @media only screen and (max-width: 899px) {
   .widget { 
     width: 100%;
-    height: calc(100vh - 260px);
+    height: calc(100vh - 250px);
     max-height: -webkit-fill-available;
-    margin-top: 9px;
+    margin-top: 8px;
   }
 }

@@ -214,7 +214,6 @@
 
 .discord {
   height: -webkit-fill-available;
-  background-color: #36393e;
   margin: 20px;
   margin-top: 30px;
 }
@@ -235,7 +234,8 @@
 @media only screen and (max-width: 899px) {
   .widget { 
     width: 100%;
-    height: calc(100vh - 250px);
+    height: calc(100vh - 260px);
     max-height: -webkit-fill-available;
+    margin-top: 10px;
   }
 }

@@ -19,11 +19,14 @@
   padding: 0;
 }
 
+.html {
+  height: -webkit-fill-available;
+}
+
 .body {
   width: 100%;
-  height: -webkit-fill-available;
-  background-color: aquamarine;
-
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 /*start of header*/
@@ -208,6 +211,9 @@
     }
   }
 
+.discord {
+  height: -webkit-fill-available;
+}
 
 .widget {
   height: calc(100vh - 145px);

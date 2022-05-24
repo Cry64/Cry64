@@ -27,6 +27,7 @@
   width: 100%;
   min-height: 100vh;
   min-height: -webkit-fill-available;
+  overflow: hidden;
 }
 
 /*start of header*/
@@ -168,7 +169,7 @@
     .header { 
         grid-template-columns: 0% repeat(4, 25%);
         margin: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 15px;
     }
   }
 
@@ -213,13 +214,22 @@
 
 .discord {
   height: -webkit-fill-available;
+  background-color: #36393e;
+  margin: 20px;
+  margin-top: 30px;
 }
 
 .widget {
-  height: calc(100vh - 145px);
+  height: calc(100vh - 135px);
   max-height: -webkit-fill-available;
   width: calc(100% - 40px);
-  margin-left: 20px;
+}
+
+@media only screen and (max-width: 899px) {
+  .discord { 
+    margin: 10px;
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 899px) {

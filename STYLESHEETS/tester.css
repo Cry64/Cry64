@@ -222,7 +222,7 @@
 .widget {
   height: calc(100vh - 135px);
   max-height: -webkit-fill-available;
-  width: calc(100% - 40px);
+  width: 100%;
 }
 
 @media only screen and (max-width: 899px) {

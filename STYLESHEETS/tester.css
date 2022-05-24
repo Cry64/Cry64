@@ -217,6 +217,7 @@
 
 .widget {
   height: calc(100vh - 145px);
+  max-height: -webkit-fill-available;
   width: calc(100% - 40px);
   margin-left: 20px;
 }
@@ -226,5 +227,6 @@
     margin: 10px;
     width: calc(100% - 20px);;
     height: calc(100vh - 125px);
+    max-height: -webkit-fill-available;
   }
 }

@@ -217,7 +217,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-interview {
-  background-image: url(../IMAGES/weather.png);
+  background-image: url(../IMAGES/casper.png);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -256,7 +256,7 @@ src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
 }
 
 .featured-album {
-  background-image: url(../IMAGES/FRIN.jpg);
+  background-image: url(../IMAGES/weather.png);
   background-size: cover;
   background-position: center;
   position: relative;

@@ -2,146 +2,219 @@
 @font-face {
   font-family: 'Mondwest Regular';
   src: url('../FONTS/PPMondwest-Regular.eot') format('embedded-opentype'),
-      url('../FONTS/PPMondwest-Regular.svg') format('svg'),
-      url('../FONTS/PPMondwest-Regular.woff2') format('woff2'),
-      url('../FONTS/PPMondwest-Regular.woff') format('woff'),
-      url('../FONTS/PPMondwest-Regular.ttf') format('truetype');
+       url('../FONTS/PPMondwest-Regular.svg') format('svg'),
+       url('../FONTS/PPMondwest-Regular.woff2') format('woff2'),
+       url('../FONTS/PPMondwest-Regular.woff') format('woff'),
+       url('../FONTS/PPMondwest-Regular.ttf') format('truetype');
   }
   
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
   
-  *{
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-  }
   
-  body {
-      width: calc(100% - 20px); 
-  }
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.html {
+  height: -webkit-fill-available;
+}
+
+.body {
+  width: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  overflow: hidden;
+}
+
+/*start of header*/
+
+.header {
+  position: sticky;
+  top: 15px;
+  z-index: 90;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 50.05% repeat(4, 12.5%);
+  grid-template-rows: 57%;
+  border: 1px solid black;
+  margin: 20px;
+  margin-bottom: 20px;
+  height: 85px;
+}
+
+.header-item {
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.lower-header-item {
+  border-right: 1px solid black;
+}
+
+.header-item p,.lower-header-item p {
+  font-family: Mondwest Regular;
+  color: black;
+  font-size: 20px;   
+}
+
+.header-item p {
+  text-align: center;
+  line-height: 48px;
+}
+
+.lower-header-item p {
+  text-align: center;
+}
+
+.join-here {
+  grid-column: span 4;
+  background-color: white;
+  border-bottom: 0;
+  border-right: 0;
+  text-decoration: none;
+  z-index: 50;
+}
+
+.join-here p {
+  font-size: 21px;
+  line-height: 36px;
+  height: 100%;
+}
+
+.logo {
+  width: 118px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  height: 100%;
+  padding-bottom: 4px;
+  border-right: 1px solid black;
+}
+
+.logo-container {
+  background: white;
+}
+
+.about {
+  border-right: 0;
+}
+
+.bio {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: white;
+}
+
+.bio p{
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  padding-left: 100%;
+  font-size: 21px;
+}
   
-  /* header */
-  
-  .header-container {
-      position: sticky;
-      top: 0px;
-      z-index: 100;
-  }
-  
-  .header {
-      height: 69px;
-      display: flex;
-      margin-bottom: 20px;
-      position: -webkit-sticky;
-      position: sticky;
-      background-color: white;
-  }
-  
-  .nav {
-      width: 59.3%;
-      height: 50px;
-      top: 15px;
-      display: grid;
-      grid-template-columns: repeat(4, 25%);
-      border: 1px solid black;
-      border-right: 0;
-      margin: 20px; 
-  }
-  
-  .nav-item {
-      border-right: 1px solid black;
-      text-align: center;
-      font-family: Mondwest Regular;
-      line-height: 46px;
-      font-size: 20px;
-      text-decoration: none;
-      color: black;
-  }
-  
-  .nav-item p {
-      height: 100%;
-  }
-  
-  /* scrolling text */
-  
-  .marquee-section {
-      top: 20px;
-      position: relative;
-      min-height: 50px;
-      border: 1px solid black;
-      height: 50px;
-      width: 38.5%;
-      display: flex;
-      background-color: white;
-  }
-  
-  .marquee-section, .marquee-section * {
-      overflow: hidden;
-      line-height: 46px;
-  }
-  
-  .marquee {
-      white-space: nowrap;
-      font-family: Mondwest Regular;
-      font-size: 25px;
-      text-decoration: none;
-      color: black;
-  }
-  
-  .marquee-div {
-      position: absolute;
-      animation: move-left-to-right linear 20s infinite;
-  }
-  
-  @keyframes move-left-to-right {
-      from {
-          transform: translateX(0%);
-      }
-      to {
-          transform: translateX(-50%);
-      }
-  }
-  
-  .nav-item p:hover {
-      background-color: black;
-      transition: 0.2s;
-      color: white
+.logo, .home, .releases, .interviews, .about{
+  background-color: white;
+}
+
+.releases p:hover {
+  background-color: black;
+  transition: 0.2s;
+  color: white
+}
+
+.interviews p:hover {
+  background-color: black;
+  transition: 0.2s;
+  color: white
+}
+
+.about p:hover {
+  background-color: black;
+  transition: 0.2s;
+  color: white
+}
+
+.home p:hover {
+  background-color: black;
+  transition: 0.2s;
+  color: white
+}
+
+.join-here :hover {
+  background-color: black;
+  transition: 0.2s;
+  color: white
+}
+
+.bio p {
+  animation: floatText 4000s infinite linear;
+}
+
+  @keyframes floatText {
+    to {
+      transform: translateX(-100%);
     }
-  
-  /* mobile */
+  }
+
+  @media only screen and (max-width: 899px) {
+    .header { 
+        grid-template-columns: 0% repeat(4, 25%);
+        margin: 10px;
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 899px) {
+    .logo p{ 
+        display: none;
+        border-right: 0;
+    }
+  }
   
   @media only screen and (max-width: 899px) {
-      .header { 
-          flex-wrap: wrap;
-          height: 98px;
-          margin-bottom: 40px;
-          
-      }
+    .logo{ 
+        border-right: 0;
     }
-  
+  }
+
   @media only screen and (max-width: 899px) {
-      .nav { 
-          top: 72px;
-          width: 100%;
-          margin-right: 0;
-          margin-bottom: 40px;
-      }
+    .bio { 
+        grid-column: span 5;
+        border: 0;  
     }
-  
+  }
+
   @media only screen and (max-width: 899px) {
-      .marquee-section { 
-          width: 100%;
-          margin-left: 20px;
-          top: -41px;
-      }
+    .bio { 
+        grid-column: span 5;
+        border: 0;  
     }
+  }
+
+  @media only screen and (max-width: 899px) {
+    .join-here { 
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    .header-item p{ 
+        font-size: 4.5vw; 
+    }
+  }
 
 .discord {
   height: -webkit-fill-available;
   margin: 20px;
-  margin-right: 0;
 }
 
 .widget {

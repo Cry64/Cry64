@@ -33,43 +33,33 @@
   
   /*start of header*/
   
-  .headers {
-    display: flex;
-    position: sticky;
-    z-index: 100;
-    justify-content: space-between;
-    width: calc(100% - 20px); 
-  }
-
   .header {
-    width: 58.5vw;
+    background: white;
+    width: 58.1%;
+    position: sticky;
     top: 15px;
     z-index: 100;
     display: grid;
-    grid-template-columns: repeat(4, 25%);
+    overflow: hidden;
+    grid-template-columns: 118px repeat(4, 21.49%);
+    grid-template-rows: 7%;
     border: 1px solid black;
-    border-right: 0;
     margin: 20px;
-    margin-bottom: 0;
   }
 
   .header_2 {
     background: white;
-    width: 38.5%;
+    width: 37.75%;
     position: sticky;
     top: 15px;
     z-index: 100;
     overflow: hidden;
     border: 1px solid black;
-    margin-top: 20px;
+    margin-right: 20px;
     float: right;
     height: 50px;
   }
   
-  .header_3 {
-    display: none;
-  }
-
   .bio p{
     font-family: Mondwest Regular;
     line-height: 46px;
@@ -98,20 +88,16 @@
   }
   
   .logo-container {
-    position: absolute;
-    height: 50px;
-    top: 20px;
-    left: 20px;
     background: white;
   }
   
   .logo {
+    width: 118px;
+    border-right: 1px solid black;
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 4px;
-    height: 100%;
-    padding-bottom: 4px;
-    border: 1px solid black;
+    padding-bottom: 6px;
   }
     
   .logo, .home, .releases, .interviews, .about{
@@ -158,47 +144,37 @@
     }
 
     @media only screen and (max-width: 899px) {
-      .headers { 
-          width: 100vw;
-          margin-right: 0;
-          height: 120px;
-      }
-    }
-
-    @media only screen and (max-width: 899px) {
       .header { 
-          width: 100%;
-          margin-right: 0;
+          grid-template-columns: 0% repeat(4, 25%);
       }
     }
   
     @media only screen and (max-width: 899px) {
-      .header_2 { 
-        display: none;
-          
+      .logo p{ 
+          display: none;
+          border-right: 0;
       }
     }
     
     @media only screen and (max-width: 899px) {
-      .header_3 { 
-        display: inline-block;
-          
+      .logo{ 
+          border-right: 0;
       }
     }
-
+  
     @media only screen and (max-width: 899px) {
       .bio { 
-        display: hidden;
+          grid-column: span 5;
+          border: 0;  
       }
     }
-
+  
     @media only screen and (max-width: 899px) {
-      .logo { 
-          display: none;
+      .bio { 
+          grid-column: span 5;
+          border: 0;  
       }
     }
-
-
    
     @media only screen and (max-width: 425px) {
       .header-item p{ 
